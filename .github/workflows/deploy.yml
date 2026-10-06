@@ -17,7 +17,7 @@ jobs:
           host: ${{ secrets.VPS_IP }}
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_SSH_KEY }} 
-          port: 22
+          port: 23035
           script: |
             set -e
             cd /var/www/clients
